@@ -8,6 +8,11 @@ public class NPC : MonoBehaviour
     public float distance;
     NavMeshAgent nav;
     Rigidbody rid;
+
+    public GameObject cam1;
+    public GameObject cam2;
+
+    public GameObject chat;
     void Start()
     {
         nav = GetComponent<NavMeshAgent>();
@@ -25,26 +30,63 @@ public class NPC : MonoBehaviour
 
     //}
 
-    private void FixedUpdate()
-    {
-        if (Vector3.Distance(transform.position, player.transform.position) < distance)
-            //&& Vector3.Distance(transform.position, player.transform.position) >2)
-        {
-            nav.SetDestination(player.transform.position);
-            if (Vector3.Distance(transform.position, player.transform.position) < 2)
-            {
-                rid.velocity = Vector3.zero;
-                nav.Stop();
-            }
+    //private void FixedUpdate()
+    //{
+    //    if (Vector3.Distance(transform.position, player.transform.position) < distance)
+    //        //&& Vector3.Distance(transform.position, player.transform.position) >2)
+    //    {
+    //        nav.SetDestination(player.transform.position);
+    //        if (Vector3.Distance(transform.position, player.transform.position) < 2)
+    //        {
+    //            rid.velocity = Vector3.zero;
+    //            nav.Stop();
+    //        }
 
+    //    }
+    //}
+
+    private void Update()
+    {
+        Vector3 targetPosition = new Vector3(player.transform.position.x, transform.position.y, player.transform.position.z);
+        transform.LookAt(targetPosition);
+    }
+
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.tag =="Player")
+        {
+            cam1.SetActive(false);
+            cam2.SetActive(true);
+            chat.SetActive(true);
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerExit(Collider other)
     {
-        if(collision.transform.tag =="Player")
+        if(other.tag =="Player")
         {
-            Debug.Log("hi");
+            cam2.SetActive(false);
+            cam1.SetActive(true);
+            chat.SetActive(false);
         }
     }
+    //private void OnCollisionEnter(Collision collision)
+    //{
+    //    if(collision.transform.tag =="Player")
+    //    {
+    //        cam1.SetActive(false);
+    //        Debug.Log("hi");
+    //    }
+    //}
+
+    //private void OnCollisionExit(Collision collision)
+    //{
+    //    if (collision.transform.tag == "Player")
+    //    {
+    //        cam2.SetActive(false);
+    //        cam1.SetActive(true);
+    //        Debug.Log("hi");
+    //    }
+    //}
 }

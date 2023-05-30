@@ -29,6 +29,8 @@ public class PlayerController : MonoBehaviour
     public Sprite appleImg;
 
     int appleNum = 0;
+
+    public RectTransform selectItem;
     void Start()
     {
         playerAnim = GetComponent<Animator>();
@@ -57,6 +59,15 @@ public class PlayerController : MonoBehaviour
             {
                 StartCoroutine(Gathering());
             }
+        }
+
+        if(Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            selectItem.anchoredPosition = new Vector3(-272, 67, 0);
+        }
+        if(Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            selectItem.anchoredPosition = new Vector3(-62, 67, 0);
         }
 
     }
@@ -161,23 +172,49 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(waitApple);
         Destroy(item);
         getItem = false;
-        guideText.gameObject.SetActive(false);
-        appleNum++;
-        for(int i=0; i<slot.Length; i++)
-        {
-            if(slot[i].sprite ==null)
-            {
-                if (appleNum == 0)
-                {
-                    slot[i].sprite = appleImg;
-                    slot[i].gameObject.SetActive(true);
-                    
-                    yield break;
-                }
-            }
-        }
+        //guideText.gameObject.SetActive(false);
+        //appleNum++;
+        //for(int i=0; i<slot.Length; i++)
+        //{
+        //    if(slot[i].sprite ==null)
+        //    {
+        //        if (appleNum == 0)
+        //        {
+        //            slot[i].sprite = appleImg;
+        //            slot[i].gameObject.SetActive(true);
+
+        //            yield break;
+        //        }
+        //    }
+        //}
+        CheckItem("Apple");
 
         
+    }
+
+    void CheckItem(string item)
+    {
+        for (int i = 0; i < slot.Length; i++)
+        {
+            if (slot[i].sprite == null)
+            {
+                if (appleNum == 0 && item =="Apple")
+                {
+                    appleNum++;
+                    count[i].text = appleNum.ToString();
+                    slot[i].sprite = appleImg;
+                    slot[i].gameObject.SetActive(true);
+
+                    break;
+                }
+
+            }
+            else if(slot[i].sprite.name =="apple")
+            {
+                appleNum++;
+                count[i].text = appleNum.ToString();
+            }
+        }
     }
 
 }
