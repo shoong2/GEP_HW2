@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
     public float speed;
     public float jumpForce;
+
     public float waitPunch;
+    public float waitApple;
 
     public bool isGrounded = true;
     bool isTree = false;
@@ -20,6 +23,10 @@ public class PlayerController : MonoBehaviour
 
     Tree tree;
     GameObject item;
+
+    public Image[] slot;
+    public TMP_Text[] count;
+    public Sprite appleImg;
 
     int appleNum = 0;
     void Start()
@@ -48,8 +55,7 @@ public class PlayerController : MonoBehaviour
 
             if(getItem)
             {
-                Destroy(item);
-                appleNum++;
+                StartCoroutine(Gathering());
             }
         }
 
@@ -107,6 +113,7 @@ public class PlayerController : MonoBehaviour
     {
         if (other.tag == "Apple")
         {
+            isTree = false;
             guideText.text = "F키를 눌러 아이템을 획득하기";
             guideText.gameObject.SetActive(true);
             item = other.gameObject;
@@ -115,6 +122,7 @@ public class PlayerController : MonoBehaviour
 
         else if (other.tag =="Tree")
         {
+            getItem = false;
             guideText.text = "F키를 눌러 나무를 흔들기";
             guideText.gameObject.SetActive(true);
             isTree = true;
@@ -144,6 +152,31 @@ public class PlayerController : MonoBehaviour
         playerAnim.SetTrigger("Shake");
         yield return new WaitForSeconds(waitPunch);
         tree.TreeSet();
+        
+    }
+
+    IEnumerator Gathering()
+    {
+        playerAnim.SetTrigger("Gathering");
+        yield return new WaitForSeconds(waitApple);
+        Destroy(item);
+        getItem = false;
+        guideText.gameObject.SetActive(false);
+        appleNum++;
+        for(int i=0; i<slot.Length; i++)
+        {
+            if(slot[i].sprite ==null)
+            {
+                if (appleNum == 0)
+                {
+                    slot[i].sprite = appleImg;
+                    slot[i].gameObject.SetActive(true);
+                    
+                    yield break;
+                }
+            }
+        }
+
         
     }
 
