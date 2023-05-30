@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
 
     public bool isGrounded = true;
     bool isTree = false;
+    bool getItem = false;
 
     Animator playerAnim;
     Rigidbody rigid;
@@ -18,6 +19,9 @@ public class PlayerController : MonoBehaviour
     public TMP_Text guideText;
 
     Tree tree;
+    GameObject item;
+
+    int appleNum = 0;
     void Start()
     {
         playerAnim = GetComponent<Animator>();
@@ -40,6 +44,12 @@ public class PlayerController : MonoBehaviour
             if(isTree)
             {
                 StartCoroutine(ShakeTree());
+            }
+
+            if(getItem)
+            {
+                Destroy(item);
+                appleNum++;
             }
         }
 
@@ -95,13 +105,23 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.tag =="Tree")
+        if (other.tag == "Apple")
         {
-            guideText.text = "F키를 누르세요.";
+            guideText.text = "F키를 눌러 아이템을 획득하기";
+            guideText.gameObject.SetActive(true);
+            item = other.gameObject;
+            getItem = true;
+        }
+
+        else if (other.tag =="Tree")
+        {
+            guideText.text = "F키를 눌러 나무를 흔들기";
             guideText.gameObject.SetActive(true);
             isTree = true;
             tree = other.gameObject.GetComponent<Tree>();
         }
+
+        
     }
 
     private void OnTriggerExit(Collider other)
@@ -110,6 +130,12 @@ public class PlayerController : MonoBehaviour
         {
             guideText.gameObject.SetActive(false);
             isTree = false;
+        }
+
+        if(other.tag =="Apple")
+        {
+            guideText.gameObject.SetActive(false);
+            getItem = false;
         }
     }
 
