@@ -1220,11 +1220,11 @@ RectTransform:
   m_Father: {fileID: 904373564}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -153.5, y: -159.5}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: -148.8, y: 84.7}
   m_SizeDelta: {x: 150, y: 80}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &284755054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5355,11 +5355,11 @@ RectTransform:
   m_Father: {fileID: 904373564}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 173.6, y: -159.5}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 159.8, y: 84.7}
   m_SizeDelta: {x: 150, y: 80}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1881790460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5406,7 +5406,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1334041245}
         m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: GoMain
+        m_MethodName: cine
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

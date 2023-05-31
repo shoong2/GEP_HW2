@@ -350,6 +350,7 @@
 "Assets/Scripts/Button.cs"
 "Assets/Scripts/ChangeScene.cs"
 "Assets/Scripts/CheckPoint.cs"
+"Assets/Scripts/Cine.cs"
 "Assets/Scripts/Door.cs"
 "Assets/Scripts/Enemy.cs"
 "Assets/Scripts/GameManager.cs"

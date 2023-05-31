@@ -1,517 +1,525 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1685540786234307, "dur":2021, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685540786236334, "dur":41, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1685540786236383, "dur":12, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1685540786236395, "dur":415, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1685540786236842, "dur":396, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685540786237238, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685540787108632, "dur":159, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685540787108791, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685540787108807, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685540787108808, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685540787108812, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685540787108812, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685540787108818, "dur":14, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685540787108832, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685540787108835, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685540787108835, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685540787108838, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685540787108838, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685540787108841, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685540787108841, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685540787108844, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685540787108845, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685540787108848, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685540787108848, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685540787108851, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685540787108851, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685540787108854, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685540787108855, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685540787108857, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685540787108857, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685540787108861, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685540787108868, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685540787108883, "dur":1832, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1685540786237064, "dur":179, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685540786237244, "dur":4130, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685540786241389, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1685540786241395, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685540786243831, "dur":1040, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1685540786244877, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1685540786245019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685540786245454, "dur":8125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1685540786253580, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1685540786253734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685540786253821, "dur":82841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1685540786336738, "dur":52081, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685540786388824, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685540786388832, "dur":8556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685540786397506, "dur":54555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685540786452066, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685540786452073, "dur":2587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685540786454722, "dur":37909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685540786492634, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685540786492643, "dur":3504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685540786496207, "dur":17831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685540786514041, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685540786514048, "dur":17615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685540786531727, "dur":70731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685540786602462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685540786602469, "dur":7732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685540786610286, "dur":14749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685540786625041, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685540786625049, "dur":7713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685540786632834, "dur":16586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685540786649425, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685540786649434, "dur":4458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685540786653949, "dur":57985, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685540786711938, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685540786711946, "dur":17250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685540786729275, "dur":84975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685540786814255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685540786814263, "dur":7267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685540786821587, "dur":33894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685540786855486, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685540786855495, "dur":3610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685540786859164, "dur":91259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685540786950427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685540786950434, "dur":4207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685540786954718, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/level3.resS" }}
-,{ "pid":12345, "tid":1, "ts":1685540786954778, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685540786954783, "dur":1591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/level3.resS" }}
-,{ "pid":12345, "tid":1, "ts":1685540786956441, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/level3" }}
-,{ "pid":12345, "tid":1, "ts":1685540786956501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685540786956506, "dur":2865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/level3" }}
-,{ "pid":12345, "tid":1, "ts":1685540786959479, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/level2.resS" }}
-,{ "pid":12345, "tid":1, "ts":1685540786959574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685540786959580, "dur":2040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/level2.resS" }}
-,{ "pid":12345, "tid":1, "ts":1685540786961697, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/level0.resS" }}
-,{ "pid":12345, "tid":1, "ts":1685540786961760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685540786961765, "dur":1658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/level0.resS" }}
-,{ "pid":12345, "tid":1, "ts":1685540786963487, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":1, "ts":1685540786963557, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685540786963561, "dur":1768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":1, "ts":1685540786965440, "dur":143182, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685540786237095, "dur":155, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685540786237250, "dur":4131, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685540786241389, "dur":8986, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1685540786250377, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685540786250544, "dur":3678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1685540786254328, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1685540786254482, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685540786254492, "dur":226630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1685540786481204, "dur":30884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685540786512093, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685540786512102, "dur":62157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685540786574324, "dur":102291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685540786676619, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685540786676628, "dur":30841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685540786707599, "dur":193003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685540786900606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685540786900613, "dur":5229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685540786905906, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":2, "ts":1685540786905969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685540786906026, "dur":2719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":2, "ts":1685540786908813, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":2, "ts":1685540786908870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685540786908880, "dur":4038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":2, "ts":1685540786912981, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":2, "ts":1685540786913036, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685540786913078, "dur":1497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":2, "ts":1685540786914652, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":2, "ts":1685540786914708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685540786914714, "dur":3288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":2, "ts":1685540786918061, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1685540786918238, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685540786918245, "dur":1532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1685540786919849, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":2, "ts":1685540786919932, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685540786919938, "dur":2453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":2, "ts":1685540786922482, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":2, "ts":1685540786922558, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685540786922564, "dur":2038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":2, "ts":1685540786924667, "dur":34088, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1685540786958759, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685540786958771, "dur":13801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1685540786972631, "dur":135988, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685540786237082, "dur":164, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685540786237247, "dur":4149, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685540786241396, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1685540786241768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685540786245419, "dur":277916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1685540786523409, "dur":44071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685540786567485, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685540786567492, "dur":16082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685540786583722, "dur":18200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685540786601926, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685540786601935, "dur":7161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685540786609152, "dur":29511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685540786638667, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685540786638675, "dur":16171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685540786654912, "dur":111369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685540786766285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685540786766292, "dur":3322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685540786769687, "dur":60016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685540786829706, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685540786829713, "dur":3702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685540786833481, "dur":99108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685540786932594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685540786932601, "dur":14332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685540786946995, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":3, "ts":1685540786947268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685540786947275, "dur":1442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":3, "ts":1685540786948783, "dur":907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":3, "ts":1685540786949694, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685540786949701, "dur":1699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":3, "ts":1685540786951479, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1685540786951560, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685540786951565, "dur":1587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1685540786953215, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/resources.assets" }}
-,{ "pid":12345, "tid":3, "ts":1685540786953276, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685540786953281, "dur":6351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/resources.assets" }}
-,{ "pid":12345, "tid":3, "ts":1685540786959710, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/level2" }}
-,{ "pid":12345, "tid":3, "ts":1685540786959789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685540786959858, "dur":7839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/level2" }}
-,{ "pid":12345, "tid":3, "ts":1685540786968689, "dur":139934, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685540786237112, "dur":143, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685540786237255, "dur":4123, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685540786241390, "dur":8324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1685540786249717, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685540786249969, "dur":3032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1685540786253149, "dur":11310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1685540786264462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685540786264470, "dur":73249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1685540786337841, "dur":20549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685540786358393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685540786358736, "dur":13416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685540786372310, "dur":82290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685540786454605, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685540786454612, "dur":4091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685540786458774, "dur":14369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685540786473147, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685540786473155, "dur":43397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685540786516699, "dur":16414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685540786533116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685540786533123, "dur":64657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685540786597855, "dur":20291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685540786618151, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685540786618159, "dur":23190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685540786641450, "dur":43364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685540786684819, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685540786684827, "dur":35730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685540786720676, "dur":85933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685540786806614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685540786806622, "dur":3344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685540786810021, "dur":150712, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685540786960735, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685540786960741, "dur":10569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685540786971374, "dur":137247, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1685540786237128, "dur":130, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1685540786237258, "dur":4119, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1685540786241390, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":5, "ts":1685540786241701, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1685540786245405, "dur":10161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":5, "ts":1685540786255688, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":5, "ts":1685540786255895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1685540786255903, "dur":84850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":5, "ts":1685540786340883, "dur":30376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1685540786371262, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1685540786371268, "dur":32371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1685540786403700, "dur":25563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1685540786429270, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1685540786429279, "dur":17302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1685540786446652, "dur":34211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1685540786480868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1685540786480875, "dur":19064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1685540786499999, "dur":14692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1685540786514694, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1685540786514700, "dur":55609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1685540786570386, "dur":94708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1685540786665099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1685540786665107, "dur":61084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1685540786726378, "dur":47622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":5, "ts":1685540786774004, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1685540786774012, "dur":4194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":5, "ts":1685540786778265, "dur":24581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":5, "ts":1685540786802851, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1685540786802897, "dur":8545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":5, "ts":1685540786811511, "dur":205778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":5, "ts":1685540787017293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1685540787017300, "dur":9579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":5, "ts":1685540787026925, "dur":81695, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685540786237155, "dur":106, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685540786237261, "dur":4120, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685540786241388, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1685540786241703, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685540786245603, "dur":8114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1685540786253800, "dur":79687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1685540786333491, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685540786333500, "dur":3169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1685540786336753, "dur":15875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685540786352633, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685540786352980, "dur":2307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685540786355348, "dur":14776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685540786370130, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685540786370137, "dur":5625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685540786375825, "dur":17507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685540786393336, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685540786393343, "dur":4394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685540786397801, "dur":14006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685540786411811, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685540786411819, "dur":3443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685540786415342, "dur":30615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685540786445962, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685540786445971, "dur":2708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685540786448745, "dur":37488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685540786486238, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685540786486246, "dur":9780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685540786496097, "dur":16680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685540786512791, "dur":599, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685540786513406, "dur":19232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685540786532699, "dur":37636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685540786570376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685540786570382, "dur":9829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685540786580277, "dur":16791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685540786597073, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685540786597082, "dur":13874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685540786611080, "dur":148796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685540786759881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685540786759890, "dur":7464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685540786767411, "dur":81096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685540786848512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685540786848520, "dur":16436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685540786865027, "dur":31216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685540786896247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685540786896253, "dur":7335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685540786903665, "dur":53966, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685540786957636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685540786957644, "dur":3658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685540786961374, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/level1" }}
-,{ "pid":12345, "tid":6, "ts":1685540786961466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685540786961471, "dur":1567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/level1" }}
-,{ "pid":12345, "tid":6, "ts":1685540786963108, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":6, "ts":1685540786963184, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685540786963189, "dur":1702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":6, "ts":1685540786964988, "dur":414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/boot.config" }}
-,{ "pid":12345, "tid":6, "ts":1685540786965405, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685540786965412, "dur":1891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/boot.config" }}
-,{ "pid":12345, "tid":6, "ts":1685540786967375, "dur":141242, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1685540786237178, "dur":87, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1685540786237265, "dur":4115, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1685540786241389, "dur":462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1685540786241854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1685540786251093, "dur":199835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1685540786450995, "dur":75204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1685540786526204, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1685540786526212, "dur":12715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1685540786539015, "dur":18565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1685540786557585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1685540786557592, "dur":2592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1685540786560240, "dur":17756, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1685540786578001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1685540786578009, "dur":6732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1685540786584796, "dur":18422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1685540786603221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1685540786603263, "dur":12670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1685540786615998, "dur":16380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1685540786632383, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1685540786632393, "dur":3359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1685540786635819, "dur":40823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1685540786676645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1685540786676651, "dur":17542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1685540786694336, "dur":122477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":7, "ts":1685540786816817, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1685540786816824, "dur":3920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":7, "ts":1685540786820868, "dur":143899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":7, "ts":1685540786964771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1685540786964779, "dur":10814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":7, "ts":1685540786975650, "dur":132966, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685540786237198, "dur":70, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685540786237268, "dur":4111, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685540786241390, "dur":8740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1685540786250133, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685540786250145, "dur":4196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1685540786254426, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":8, "ts":1685540786254545, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685540786254552, "dur":81074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":8, "ts":1685540786335751, "dur":29575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2.exe" }}
-,{ "pid":12345, "tid":8, "ts":1685540786365331, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685540786365338, "dur":6537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2.exe" }}
-,{ "pid":12345, "tid":8, "ts":1685540786372137, "dur":19990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685540786392130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685540786392164, "dur":6036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685540786398270, "dur":68479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685540786466754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685540786466762, "dur":25451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685540786492270, "dur":31856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685540786524130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685540786524137, "dur":11599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685540786535818, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685540786536083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685540786536090, "dur":2802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685540786538960, "dur":30590, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685540786569555, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685540786569563, "dur":85954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685540786655575, "dur":27920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685540786683500, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685540786683508, "dur":20514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685540786704103, "dur":66655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685540786770762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685540786770770, "dur":10823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685540786781659, "dur":104662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685540786886325, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685540786886333, "dur":9269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685540786895666, "dur":173987, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685540787069657, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685540787069664, "dur":2773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685540787072481, "dur":36152, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685540786237215, "dur":56, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685540786237271, "dur":4107, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685540786241390, "dur":460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":9, "ts":1685540786241854, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685540786250116, "dur":9541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":9, "ts":1685540786259755, "dur":161368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685540786421128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685540786421134, "dur":18468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685540786439672, "dur":19459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685540786459135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685540786459142, "dur":2646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685540786461843, "dur":29442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685540786491290, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685540786491298, "dur":6507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685540786497867, "dur":67561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685540786565433, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685540786565441, "dur":21563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685540786587067, "dur":72438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685540786659513, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685540786659523, "dur":44177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685540786703779, "dur":57694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685540786761477, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685540786761484, "dur":4690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685540786766248, "dur":115497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685540786881750, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685540786881759, "dur":7843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685540786889763, "dur":203847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685540787093613, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685540787093619, "dur":14929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685540787108596, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":9, "ts":1685540787108598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685540786237230, "dur":44, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685540786237274, "dur":4106, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685540786241390, "dur":336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":10, "ts":1685540786241774, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685540786249687, "dur":8031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":10, "ts":1685540786257808, "dur":75736, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685540786333548, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685540786333681, "dur":6475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685540786340262, "dur":30859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685540786371124, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685540786371131, "dur":17999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685540786389218, "dur":25922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685540786415145, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685540786415156, "dur":23278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685540786438522, "dur":164578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685540786603104, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685540786603112, "dur":18890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685540786622073, "dur":15176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685540786637253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685540786637262, "dur":52376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685540786691113, "dur":83030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685540786774146, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685540786774152, "dur":14047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685540786788262, "dur":38873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685540786827140, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685540786827148, "dur":6289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685540786833501, "dur":95066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685540786928572, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685540786928580, "dur":4382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685540786933105, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":10, "ts":1685540786933258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685540786933264, "dur":27159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":10, "ts":1685540786960494, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/level1.resS" }}
-,{ "pid":12345, "tid":10, "ts":1685540786960568, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685540786960573, "dur":2033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/level1.resS" }}
-,{ "pid":12345, "tid":10, "ts":1685540786962749, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/level0" }}
-,{ "pid":12345, "tid":10, "ts":1685540786962851, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685540786962857, "dur":2030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/level0" }}
-,{ "pid":12345, "tid":10, "ts":1685540786965005, "dur":143617, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1685540786237252, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1685540786237252, "dur":4123, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1685540786241389, "dur":25282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":11, "ts":1685540786266676, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1685540786267193, "dur":68484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":11, "ts":1685540786335788, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":11, "ts":1685540786335977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1685540786336382, "dur":21539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":11, "ts":1685540786358005, "dur":28451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1685540786386461, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1685540786386469, "dur":7897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1685540786394433, "dur":17865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1685540786412301, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1685540786412308, "dur":23836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1685540786436210, "dur":187207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1685540786623422, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1685540786623431, "dur":40092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1685540786663600, "dur":21523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1685540786685126, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1685540786685132, "dur":38207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1685540786723410, "dur":261998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":11, "ts":1685540786985413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1685540786985421, "dur":13469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":11, "ts":1685540786998951, "dur":109667, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685540786237276, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685540786237276, "dur":4106, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685540786241388, "dur":8309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":12, "ts":1685540786249700, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685540786249713, "dur":3263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":12, "ts":1685540786253047, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":12, "ts":1685540786253204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685540786253804, "dur":2203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":12, "ts":1685540786256069, "dur":3113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685540786259186, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685540786259715, "dur":4678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685540786264557, "dur":72327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":12, "ts":1685540786336887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685540786336892, "dur":3399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":12, "ts":1685540786340744, "dur":30768, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685540786371515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685540786371521, "dur":2475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685540786374408, "dur":17686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685540786392099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685540786392106, "dur":4037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685540786396315, "dur":16525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685540786412843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685540786412849, "dur":4866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685540786417785, "dur":38513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685540786456302, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685540786456310, "dur":3200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685540786459582, "dur":36129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685540786495716, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685540786495734, "dur":3784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685540786499595, "dur":22366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685540786521967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685540786521975, "dur":9514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685540786531572, "dur":38274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685540786569850, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685540786569856, "dur":13632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685540786583600, "dur":14014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685540786597616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685540786597622, "dur":9843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685540786607542, "dur":25470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685540786633015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685540786633021, "dur":4005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685540786637098, "dur":26018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685540786663121, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685540786663130, "dur":16058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685540786679302, "dur":68788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685540786748095, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685540786748163, "dur":12438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685540786760665, "dur":134570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685540786895240, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685540786895250, "dur":4094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685540786899405, "dur":115482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/Cinemachine.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685540787014890, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685540787014896, "dur":2697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/GEP2/GEP_HW2_Data/Managed/Cinemachine.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685540787017653, "dur":90977, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685540787112269, "dur":1419, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1685544435517070, "dur":1929, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685544435519004, "dur":41, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1685544435519052, "dur":12, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1685544435519065, "dur":438, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1685544435519535, "dur":344, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685544435519879, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685544436294902, "dur":199, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685544436295101, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685544436295112, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685544436295113, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685544436295119, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685544436295119, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685544436295122, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685544436295122, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685544436295125, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685544436295126, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685544436295128, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685544436295129, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685544436295131, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685544436295131, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685544436295135, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685544436295135, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685544436295138, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685544436295138, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685544436295141, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685544436295142, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685544436295145, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685544436295146, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685544436295149, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685544436295149, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685544436295152, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685544436295160, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685544436295175, "dur":1980, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1685544435519695, "dur":190, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685544435519885, "dur":4095, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685544435523986, "dur":385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1685544435524373, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685544435602972, "dur":1571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1685544435604621, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685544435604703, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685544435604709, "dur":44149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685544435648922, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685544435649024, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685544435649029, "dur":76744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685544435725831, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685544435725890, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685544435725895, "dur":65144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685544435791104, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685544435791284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685544435791292, "dur":49658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685544435841034, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685544435841130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685544435841137, "dur":101626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685544435942822, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685544435942884, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685544435942890, "dur":129822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685544436072772, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685544436072844, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685544436072850, "dur":221984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685544436294877, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1685544436294878, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685544435519716, "dur":172, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685544435519889, "dur":4094, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685544435523984, "dur":382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1685544435524368, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685544435602417, "dur":45049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1685544435648320, "dur":339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685544435648663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685544435648672, "dur":22526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685544435671266, "dur":116395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685544435787664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685544435787670, "dur":3384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685544435791124, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685544435791353, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685544435791358, "dur":25606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685544435817033, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685544435817095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685544435817102, "dur":24038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685544435841220, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685544435841290, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685544435841295, "dur":22428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685544435863807, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685544435863914, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685544435863921, "dur":20507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685544435884495, "dur":34291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685544435918790, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685544435918798, "dur":2346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685544435921200, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685544435921256, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685544435921261, "dur":47525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685544435968839, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685544435968894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685544435968900, "dur":76694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685544436045650, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685544436045701, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685544436045707, "dur":105837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685544436151611, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/level3.resS" }}
+,{ "pid":12345, "tid":2, "ts":1685544436151683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685544436151689, "dur":4563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/level3.resS" }}
+,{ "pid":12345, "tid":2, "ts":1685544436156344, "dur":409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1685544436156756, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685544436156761, "dur":2112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1685544436158927, "dur":135972, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685544435519740, "dur":153, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685544435519893, "dur":4087, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685544435523985, "dur":344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1685544435524331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685544435595792, "dur":3783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1685544435599698, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685544435599783, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685544435599858, "dur":23032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685544435622953, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685544435623027, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685544435623033, "dur":32713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685544435655817, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685544435655882, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685544435655889, "dur":107861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685544435763820, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685544435763900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685544435763908, "dur":25026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685544435789006, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685544435789090, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685544435789096, "dur":31402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685544435820563, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685544435820624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685544435820631, "dur":44275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685544435864959, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685544435865014, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685544435865020, "dur":55511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685544435920605, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685544435920662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685544435920668, "dur":192630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685544436113362, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1685544436113421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685544436113487, "dur":1622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1685544436115331, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1685544436115418, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685544436115425, "dur":1593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1685544436117074, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1685544436117125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685544436117133, "dur":1166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1685544436118353, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1685544436118403, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685544436118407, "dur":1155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1685544436119616, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1685544436119669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685544436119674, "dur":1829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1685544436121556, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1685544436121611, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685544436121616, "dur":1770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1685544436123441, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1685544436123494, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685544436123500, "dur":2432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1685544436125993, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1685544436126049, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685544436126054, "dur":11259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1685544436137384, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1685544436137534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685544436137540, "dur":18073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1685544436155754, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1685544436155866, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685544436155870, "dur":1655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1685544436157627, "dur":137274, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685544435519761, "dur":136, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685544435519897, "dur":4081, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685544435523986, "dur":443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1685544435524430, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685544435603504, "dur":2549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1685544435606189, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685544435606417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685544435606425, "dur":30945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685544435637452, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685544435637544, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685544435637551, "dur":67195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685544435704818, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685544435704885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685544435704890, "dur":69169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685544435774128, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685544435774194, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685544435774200, "dur":49079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685544435823386, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685544435823457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685544435823464, "dur":67894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685544435891423, "dur":79113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685544435970540, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685544435970547, "dur":2933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685544435973554, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685544435973622, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685544435973629, "dur":63905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685544436037600, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685544436037660, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685544436037666, "dur":116875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685544436154619, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1685544436154688, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685544436154693, "dur":1743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1685544436156522, "dur":138387, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685544435519779, "dur":122, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685544435519901, "dur":4080, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685544435523986, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1685544435524228, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685544435526989, "dur":1884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1685544435528955, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1685544435529069, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685544435529227, "dur":2098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1685544435531460, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1685544435531600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685544435531605, "dur":2159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1685544435533858, "dur":60912, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685544435594774, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685544435594780, "dur":143586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685544435738437, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685544435738564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685544435738570, "dur":49735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685544435788379, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685544435788446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685544435788452, "dur":45459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685544435833974, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685544435834036, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685544435834041, "dur":47940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685544435882055, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685544435882125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685544435882134, "dur":52671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685544435934859, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685544435934911, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685544435934916, "dur":174721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685544436109692, "dur":101115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685544436210811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685544436210843, "dur":2053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685544436212938, "dur":81957, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685544435519800, "dur":105, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685544435519905, "dur":4072, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685544435523984, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1685544435524268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685544435527477, "dur":1767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1685544435529316, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1685544435529423, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685544435529647, "dur":1824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1685544435531580, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685544435531721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685544435531993, "dur":63189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685544435595280, "dur":636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2.exe" }}
+,{ "pid":12345, "tid":6, "ts":1685544435595919, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685544435595966, "dur":42136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2.exe" }}
+,{ "pid":12345, "tid":6, "ts":1685544435638174, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685544435638247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685544435638253, "dur":27456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685544435665795, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685544435665861, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685544435665868, "dur":38370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685544435704303, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685544435704370, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685544435704375, "dur":51885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685544435756321, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685544435756383, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685544435756389, "dur":31253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685544435787707, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685544435787771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685544435787776, "dur":56046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685544435843887, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685544435843951, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685544435843957, "dur":56149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685544435900180, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685544435900245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685544435900251, "dur":47457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685544435947771, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685544435947833, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685544435947839, "dur":61738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685544436009633, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685544436009687, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685544436009693, "dur":138899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685544436148692, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/level4.resS" }}
+,{ "pid":12345, "tid":6, "ts":1685544436148778, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685544436148782, "dur":1891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/level4.resS" }}
+,{ "pid":12345, "tid":6, "ts":1685544436150744, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/level4" }}
+,{ "pid":12345, "tid":6, "ts":1685544436150843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685544436150851, "dur":1763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/level4" }}
+,{ "pid":12345, "tid":6, "ts":1685544436152676, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/level2.resS" }}
+,{ "pid":12345, "tid":6, "ts":1685544436152736, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685544436152741, "dur":1858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/level2.resS" }}
+,{ "pid":12345, "tid":6, "ts":1685544436154666, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1685544436154740, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685544436154744, "dur":1634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1685544436156449, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1685544436156760, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685544436156764, "dur":1888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1685544436158720, "dur":136177, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685544435519826, "dur":82, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685544435519908, "dur":4075, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685544435523986, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1685544435524262, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685544435526743, "dur":1965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1685544435528796, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1685544435528907, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685544435529219, "dur":1959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1685544435531307, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1685544435531468, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685544435531475, "dur":2001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1685544435533604, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685544435533743, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685544435533884, "dur":95845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685544435629848, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685544435629926, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685544435629933, "dur":23633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685544435653638, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685544435653699, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685544435653705, "dur":57648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685544435711422, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685544435711483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685544435711490, "dur":91607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685544435803158, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685544435803216, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685544435803221, "dur":41486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685544435844775, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685544435844847, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685544435844854, "dur":27905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685544435872819, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685544435872915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685544435872922, "dur":111951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685544435984934, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685544435984987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685544435984993, "dur":141150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685544436126218, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1685544436126286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685544436126291, "dur":12573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1685544436138933, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1685544436139234, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685544436139242, "dur":1454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1685544436140764, "dur":2018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1685544436142789, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685544436142799, "dur":2827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1685544436145701, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1685544436145769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685544436145776, "dur":2122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1685544436148006, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1685544436148084, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685544436148090, "dur":4025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1685544436152214, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1685544436152432, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685544436152439, "dur":2157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1685544436154666, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1685544436154740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685544436154744, "dur":2012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1685544436156835, "dur":138065, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685544435519847, "dur":64, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685544435519911, "dur":4071, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685544435523984, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1685544435524278, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685544435532680, "dur":62585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1685544435595369, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1685544435595498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685544435595846, "dur":5888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1685544435601844, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685544435601947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685544435601953, "dur":54789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685544435656819, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685544435656883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685544435656888, "dur":82541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685544435739488, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685544435739582, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685544435739587, "dur":23034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685544435762721, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685544435762788, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685544435762795, "dur":39931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685544435802787, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685544435802852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685544435802859, "dur":100469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685544435903398, "dur":245104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685544436148506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685544436148512, "dur":4319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685544436152896, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/level2" }}
+,{ "pid":12345, "tid":8, "ts":1685544436152955, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685544436152959, "dur":2024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/level2" }}
+,{ "pid":12345, "tid":8, "ts":1685544436155047, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1685544436155129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685544436155133, "dur":1738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1685544436156928, "dur":137972, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685544435519866, "dur":48, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685544435519914, "dur":4062, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685544435523985, "dur":380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1685544435524366, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685544435602155, "dur":1601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1685544435603838, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685544435603911, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685544435603916, "dur":36001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685544435639976, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685544435640035, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685544435640040, "dur":27014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685544435667123, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685544435667195, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685544435667201, "dur":108179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685544435775829, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685544435775989, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685544435775996, "dur":33143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685544435809203, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685544435809268, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685544435809274, "dur":25230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685544435834575, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685544435834644, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685544435834649, "dur":19108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685544435853826, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685544435853891, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685544435853897, "dur":51163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685544435905121, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685544435905282, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685544435905288, "dur":77696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685544435983040, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685544435983096, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685544435983102, "dur":26799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685544436009959, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685544436010044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685544436010050, "dur":57826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685544436067950, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685544436068024, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685544436068031, "dur":100699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685544436168805, "dur":126089, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685544435519880, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685544435519881, "dur":4094, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685544435523986, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":10, "ts":1685544435523989, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685544435524146, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/app.info" }}
+,{ "pid":12345, "tid":10, "ts":1685544435524208, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685544435525346, "dur":3301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/app.info" }}
+,{ "pid":12345, "tid":10, "ts":1685544435528651, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1685544435528810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685544435529456, "dur":1873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1685544435531436, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1685544435531569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685544435531575, "dur":63205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1685544435594941, "dur":344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":10, "ts":1685544435595288, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685544435595292, "dur":20675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":10, "ts":1685544435616050, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685544435616120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685544435616126, "dur":87875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685544435704111, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685544435704206, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685544435704212, "dur":20607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685544435724880, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685544435724944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685544435724951, "dur":26350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685544435751364, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685544435751427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685544435751433, "dur":37734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685544435789233, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685544435789303, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685544435789307, "dur":44030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685544435833430, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685544435833501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685544435833507, "dur":51162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685544435884741, "dur":101793, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685544435986538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685544435986544, "dur":4085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685544435990688, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685544435990750, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685544435990756, "dur":199900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685544436190713, "dur":104183, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685544435519900, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685544435519900, "dur":4079, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685544435523985, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1685544435524289, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685544435533900, "dur":65740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1685544435599743, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685544435599833, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685544435600229, "dur":23720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685544435624022, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685544435624096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685544435624102, "dur":113569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685544435737743, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685544435737813, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685544435737819, "dur":39028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685544435776905, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685544435776962, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685544435776967, "dur":46581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685544435823614, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685544435823674, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685544435823679, "dur":58297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685544435882061, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685544435882149, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685544435882154, "dur":51476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685544435933694, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685544435933753, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685544435933760, "dur":134228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685544436068055, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685544436068123, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685544436068133, "dur":44971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685544436113175, "dur":47694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685544436160873, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685544436160881, "dur":4097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685544436165041, "dur":129857, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685544435519914, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685544435519914, "dur":4068, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685544435523985, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1685544435524301, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685544435594914, "dur":1465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1685544435596452, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685544435596527, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685544435596839, "dur":59908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685544435656823, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685544435656892, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685544435656897, "dur":58309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685544435715291, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685544435715373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685544435715380, "dur":55428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685544435770878, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685544435770941, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685544435770947, "dur":26087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685544435797243, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685544435797413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685544435797419, "dur":50757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685544435848249, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685544435848308, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685544435848315, "dur":51955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685544435900332, "dur":77624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685544435977961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685544435977968, "dur":3745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685544435981778, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685544435981835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685544435981841, "dur":91355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685544436073250, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685544436073303, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685544436073308, "dur":178641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Eon/Desktop/HW2/GEP_HW2_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685544436251990, "dur":42908, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685544436298979, "dur":2103, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
