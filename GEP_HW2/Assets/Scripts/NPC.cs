@@ -1,21 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AI;
+using UnityEngine.UI;
+using TMPro;
 public class NPC : MonoBehaviour
 {
     public GameObject player;
     public float distance;
-    NavMeshAgent nav;
     Rigidbody rid;
+
+    public bool isQuest = false;
 
     public GameObject cam1;
     public GameObject cam2;
 
-    public GameObject chat;
+    public TMP_Text chat;
+
+    public PlayerController playerControl;
     void Start()
     {
-        nav = GetComponent<NavMeshAgent>();
         rid = GetComponent<Rigidbody>();
     }
 
@@ -54,11 +57,15 @@ public class NPC : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.tag =="Player")
+        if(other.tag =="Player" &&!isQuest)
         {
             cam1.SetActive(false);
             cam2.SetActive(true);
-            chat.SetActive(true);
+            chat.gameObject.SetActive(true);
+            if(playerControl.nowSlot ==1 && playerControl.appleNum>0)
+            {
+                StartCoroutine(Clear());
+            }
         }
     }
 
@@ -68,25 +75,16 @@ public class NPC : MonoBehaviour
         {
             cam2.SetActive(false);
             cam1.SetActive(true);
-            chat.SetActive(false);
+            chat.gameObject.SetActive(false);
         }
     }
-    //private void OnCollisionEnter(Collision collision)
-    //{
-    //    if(collision.transform.tag =="Player")
-    //    {
-    //        cam1.SetActive(false);
-    //        Debug.Log("hi");
-    //    }
-    //}
-
-    //private void OnCollisionExit(Collision collision)
-    //{
-    //    if (collision.transform.tag == "Player")
-    //    {
-    //        cam2.SetActive(false);
-    //        cam1.SetActive(true);
-    //        Debug.Log("hi");
-    //    }
-    //}
+    
+    IEnumerator Clear()
+    {
+        yield return new WaitForSeconds(0.8f);
+        playerControl.CheckItem("Apple_");
+        chat.text = "고마워 막대기를 줄게";
+        playerControl.CheckItem("Sword");
+        isQuest = true;
+    }
 }

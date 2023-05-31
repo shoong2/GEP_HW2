@@ -27,10 +27,18 @@ public class PlayerController : MonoBehaviour
     public Image[] slot;
     public TMP_Text[] count;
     public Sprite appleImg;
+    public Sprite swordImg;
 
-    int appleNum = 0;
-
+    public int appleNum = 0;
+    public int nowSlot=1;
     public RectTransform selectItem;
+
+    public GameObject handApple;
+    public GameObject handSword;
+    public GameObject hand;
+    public GameObject makeApple;
+
+    public NPC npc;
     void Start()
     {
         playerAnim = GetComponent<Animator>();
@@ -64,10 +72,27 @@ public class PlayerController : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Alpha1))
         {
             selectItem.anchoredPosition = new Vector3(-272, 67, 0);
+            SelectSlot(1);
+            nowSlot = 1;
         }
         if(Input.GetKeyDown(KeyCode.Alpha2))
         {
+            SelectSlot(2);
             selectItem.anchoredPosition = new Vector3(-62, 67, 0);
+            nowSlot = 2;
+        }
+
+        if(Input.GetMouseButtonDown(0))
+        {
+            if(nowSlot ==1 && appleNum>0)
+            {
+                Instantiate(makeApple, hand.transform.position, Quaternion.identity);
+                CheckItem("Apple_");
+            }
+            else if(nowSlot ==2)
+            {
+                playerAnim.SetTrigger("Attack");
+            }
         }
 
     }
@@ -188,11 +213,13 @@ public class PlayerController : MonoBehaviour
         //    }
         //}
         CheckItem("Apple");
+        if (nowSlot == 1)
+            SelectSlot(1);
 
-        
+
     }
 
-    void CheckItem(string item)
+    public void CheckItem(string item)
     {
         for (int i = 0; i < slot.Length; i++)
         {
@@ -207,14 +234,49 @@ public class PlayerController : MonoBehaviour
 
                     break;
                 }
+                else if(item == "Sword")
+                {
+                    slot[i].sprite = swordImg;
+                    slot[i].gameObject.SetActive(true);
+                }
 
             }
             else if(slot[i].sprite.name =="apple")
             {
-                appleNum++;
+                if(item=="Apple")
+                    appleNum++;
+                else if(item =="Apple_")
+                {
+                    if(appleNum>0)
+                        appleNum--;
+                    if(appleNum<=0)
+                    {
+                        appleNum = 0;
+                        slot[i].gameObject.SetActive(false);
+                        handApple.SetActive(false);
+                    }
+                }
                 count[i].text = appleNum.ToString();
             }
         }
     }
 
+    void SelectSlot(int slot)
+    {
+        if(slot==1)
+        {
+            handSword.SetActive(false);
+            if (appleNum != 0)
+                handApple.SetActive(true);
+            else
+                handApple.SetActive(false);
+        }
+
+        if (slot==2)
+        {
+            handApple.SetActive(false);
+            if(npc.isQuest)
+                handSword.SetActive(true);
+        }
+    }
 }
