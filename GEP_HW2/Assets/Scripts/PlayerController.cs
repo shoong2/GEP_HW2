@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour
 {
     public float speed;
@@ -39,17 +39,55 @@ public class PlayerController : MonoBehaviour
     public GameObject makeApple;
 
     public NPC npc;
+
+    public Slider hpBar;
+    public float maxHp;
+    public float curHp;
+
+    public bool isAttack = false;
+    public float attackTime;
+
+    AudioSource audioSource;
+    public AudioClip jumpSound;
+    public AudioClip swing;
+
+    public CheckPoint checkPoint;
     void Start()
     {
         playerAnim = GetComponent<Animator>();
         rigid = GetComponent<Rigidbody>();
+        audioSource = GetComponent<AudioSource>();
+        curHp = maxHp;
+    }
+
+    void PlaySound(string action)
+    {
+        switch(action)
+        {
+            case "Jump":
+                audioSource.clip = jumpSound;
+                break;
+            case "Attack":
+                audioSource.clip = swing;
+                break;
+        }
+        audioSource.Play();
     }
 
     // Update is called once per frame
     void Update()
     {
+        
+        hpBar.value = curHp / maxHp;
+        if(transform.position.y<-15 || curHp<=0)
+        {
+            SceneManager.LoadScene("End");
+        }
+
+
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
-        {           
+        {
+            PlaySound("Jump");
             rigid.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             
             playerAnim.SetTrigger("Jump");
@@ -60,6 +98,7 @@ public class PlayerController : MonoBehaviour
         {
             if(isTree)
             {
+                PlaySound("Attack");
                 StartCoroutine(ShakeTree());
             }
 
@@ -91,10 +130,19 @@ public class PlayerController : MonoBehaviour
             }
             else if(nowSlot ==2)
             {
+                PlaySound("Attack");
                 playerAnim.SetTrigger("Attack");
+                StartCoroutine(Attack());
             }
         }
 
+    }
+
+    IEnumerator Attack()
+    {
+        isAttack = true;
+        yield return new WaitForSeconds(attackTime);
+        isAttack = false;
     }
 
     private void FixedUpdate()
@@ -165,6 +213,17 @@ public class PlayerController : MonoBehaviour
             tree = other.gameObject.GetComponent<Tree>();
         }
 
+
+        if(other.tag == "EnemyAttack")
+        {
+            curHp -= 10;
+        }
+
+        if(other.tag=="Potion")
+        {
+            curHp += 10;
+            Destroy(other.gameObject);
+        }
         
     }
 

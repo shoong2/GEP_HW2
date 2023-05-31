@@ -7,6 +7,10 @@ TagManager:
   - Ground
   - Tree
   - Apple
+  - Enemy
+  - EnemyAttack
+  - Sword
+  - Potion
   layers:
   - Default
   - TransparentFX

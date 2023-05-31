@@ -83,7 +83,7 @@ public class NPC : MonoBehaviour
     {
         yield return new WaitForSeconds(0.8f);
         playerControl.CheckItem("Apple_");
-        chat.text = "고마워 막대기를 줄게";
+        chat.text = "고마워\n막대기를 줄게";
         playerControl.CheckItem("Sword");
         isQuest = true;
     }
